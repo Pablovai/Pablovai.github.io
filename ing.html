@@ -390,7 +390,6 @@
 
 
                 <form id="contactForm" action="thanks.html" method="POST" >
-                    {% csrf_token %}
 
                     <div class="row align-items-stretch mb-5">
                         <div class="col-md-6">
@@ -428,8 +427,7 @@
 
                     <!-- Submit Button-->
 
-                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit">Send Message</button></div>
-
+                    <div class="text-center"><a class="btn btn-primary btn-xl text-uppercase" id="submitButton" href="thanks.html">Send Message</a></div>
                 </form>
 
             </div>
